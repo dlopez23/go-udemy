@@ -1,4 +1,2 @@
-# hello-world
-1st Repo
-
-Getting into the code
+# sandbox
+getting familiar with public repos
