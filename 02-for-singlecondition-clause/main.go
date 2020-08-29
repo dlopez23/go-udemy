@@ -4,11 +4,11 @@ import (
 	"fmt"
 )
 
-func main()  {
+func main() {
 
 	// First example
 
-	x:= 1
+	x := 1
 	for x < 10 {
 		fmt.Println(x)
 		x++
@@ -17,21 +17,21 @@ func main()  {
 
 	// Second example
 
-	y:=1
+	y := 1
 	for {
-	if y > 9 {
-		break
+		if y > 9 {
+			break
+		}
+		fmt.Println(y)
+		y++
 	}
-	fmt.Println(y)
-	y++
-	}
-	fmt.Println("Doner")	
+	fmt.Println("Doner")
 
 	// Third example
-	
-	z:=1
+
+	z := 1
 	for {
-		z++	
+		z++
 		if z > 100 {
 			break
 		}
@@ -40,22 +40,21 @@ func main()  {
 		}
 		fmt.Println(z)
 	}
-	fmt.Println("Donest")	
-
+	fmt.Println("Donest")
 
 	// Third example my take
 
-	d:=1
-	for {	
-	if d > 100 {
-		break
-	}
-	if d%2 != 0 {
+	d := 1
+	for {
+		if d > 100 {
+			break
+		}
+		if d%2 != 0 {
+			d++
+			continue
+		}
+		fmt.Println(d)
 		d++
-		continue
 	}
-	fmt.Println(d)
-	d++
-	}
-	fmt.Println("Donest 2")	
+	fmt.Println("Donest 2")
 }
