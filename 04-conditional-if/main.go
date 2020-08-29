@@ -5,5 +5,6 @@ import (
 )
 
 func main()  {
-	
+	y := 1
+	fmt.Println(y)
 }
