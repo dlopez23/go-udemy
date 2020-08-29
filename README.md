@@ -2,6 +2,10 @@
 ## Go Notes
 Learning through Todd McLeod's Udemy Course
 
+In control flows, there's:
+* Sequence
+* Iterative
+* Conditional
 
 
 
